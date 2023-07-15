@@ -9,23 +9,23 @@ print("####################################")
 # 3-2: Greetings
 
 # Using match
-print("First method:")
-for name in names:
-    match name:
-        case "Eric":
-            print("Hi Eric, Whatup?!")
-        case "Barney":
-            print("Comment t'allez vous, Barney?")
-        case "Ross":
-            print("Are you fiiiiineee, Ross??")
-        case "Rachel":
-            print("What is in your bag????")
-
-        case _:
-            print("stupid answer!!")
-
-print("#####################################")
-print("Second method: ")
+#print("First method:")
+#for name in names:
+#    match name:
+#        case "Eric":
+#            print("Hi Eric, Whatup?!")
+##        case "Barney":
+#            print("Comment t'allez vous, Barney?")
+#        case "Ross":
+#            print("Are you fiiiiineee, Ross??")
+#        case "Rachel":
+#            print("What is in your bag????")
+#
+#        case _:
+#            print("stupid answer!!")
+#
+#print("#####################################")
+#print("Second method: ")
 
 # Using switch
 def switch(name):
