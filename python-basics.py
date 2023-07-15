@@ -44,10 +44,29 @@ name1_all = name1.strip()
 print(name1_left)
 print(name1_right) 
 print(name1_all)
+print("##################################################")
 
 # 2-8 File extensions
 # here we use removeprefix() and removesuffix()
 filename = "python_notes.txt"
 removed_suffix = filename.removesuffix(".txt")
 print(f"Here is the file without extension: {removed_suffix}")
+print("##################################################")
 
+# 2-9 Number Eight
+addition = 5 + 3
+subtration = 10 - 2
+multiplication = 4 * 2
+division = 16 / 2
+
+print(f"Addition: {addition}")
+print(f"Subtration: {subtration}")
+print(f"Multiplication: {multiplication}")
+print(f"Division: {division}")
+print("##################################################")
+
+# 2-10 Favorite number
+FAVORITE_NUMBER = 5
+message = f"my favorite number is {FAVORITE_NUMBER}"
+print(message)
+print("##################################################")
