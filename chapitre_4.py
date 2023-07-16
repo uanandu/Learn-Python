@@ -71,9 +71,25 @@ for number in range(1,11):
 
 print(cubes_list)
 
-# 4-10:
+# 4-10: Slices
 # Here we targer success_numbers_three list
 
 print(f"The first three items in the list are: {success_numbers_three[:3]}")
 print(f"Three items frmo the middle of the list are:{success_numbers_three[3:6]}")
 print(f"The last three items in the list are:{success_numbers_three[-3:]}")
+
+# 4-11: My pizzas, Your pizzas
+
+friend_pizzas = pizzas[:]
+
+pizzas.append("BBQ")
+friend_pizzas.append("Veggie")
+
+print("My favorite Pizzas are: ")
+for pizza in pizzas:
+	print(f"{pizza}")
+
+print("My friend's favorite Pizzas are: ")
+for pizza in friend_pizzas:
+	print(f"{pizza}")
+
