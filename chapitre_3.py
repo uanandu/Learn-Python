@@ -67,12 +67,26 @@ print("#################")
 print("Two days later!!")
 print("#################")
 
-print("Hey guys,i've found a bigger table for you guys. I would love to transfer you to that and add some more members!!!!"
+print("Hey guys,i've found a bigger table for you guys. I would love to transfer you to that and add some more members!!!!")
 
-guest_list.insert(1, "Freud")
+guest_list.insert(0, "Jaby")
 guest_list.insert(5, "Anne")
 guest_list.append("Andrea")
 
 for guest in guest_list:
 	print(f"Hey {guest}, please do show up at the place given in the invitation")
+
+print("##########################")
+print("The day before the wedding")
+print("##########################")
+
+for guest in guest_list:
+	index_of_list = guest_list.index(guest)
+	while(index_of_list <= 2):
+		guest_list.pop(index_of_list)
+		print(f"We deeply apologize for this last minute change, Unfortunately we don't be able to accomodate you {guest}. \n Please accept this gift that we are sending out to you!. \n Thanks")
+
+for guest in guest_list:
+	print(f"Hey {guest}, you are still invited and your seat is reserved for the ceremony.\n We would be esctatic to see you enjoy the wedding")
+
 
